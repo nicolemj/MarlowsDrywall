@@ -13,7 +13,7 @@ $(function () {
             var email = $("input#email").val();
             var phone = $("input#phone").val();
             var message = $("textarea#message").val();
-            var address = $("input#address").val();
+            var inputAddress = $("input#inputAddress").val();
             var city = $("input#city").val();
             var type = $("input#city").val();
             var type2 = $("input#city").val();
@@ -32,7 +32,7 @@ $(function () {
                     phone: phone,
                     email: email,
                     message: message,
-                    address: address,
+                    inputAddress: inputAddress,
                     type: type,
                     city: city,
                     type2: type2
