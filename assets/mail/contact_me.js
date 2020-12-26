@@ -13,6 +13,10 @@ $(function () {
             var email = $("input#email").val();
             var phone = $("input#phone").val();
             var message = $("textarea#message").val();
+            var address = $("input#address").val();
+            var city = $("input#city").val();
+            var type = $("input#city").val();
+            var type2 = $("input#city").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(" ") >= 0) {
@@ -28,6 +32,10 @@ $(function () {
                     phone: phone,
                     email: email,
                     message: message,
+                    address: address,
+                    type: type,
+                    city: city,
+                    type2: type2
                 },
                 cache: false,
                 success: function () {

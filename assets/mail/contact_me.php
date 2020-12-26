@@ -11,8 +11,12 @@ if(empty($_POST['name'])      ||
    }
    
 $name = strip_tags(htmlspecialchars($_POST['name']));
+$type = strip_tags(htmlspecialchars($_POST['type']));
+$type2 = strip_tags(htmlspecialchars($_POST['type2']));
 $email_address = strip_tags(htmlspecialchars($_POST['email']));
 $phone = strip_tags(htmlspecialchars($_POST['phone']));
+$address = strip_tags(htmlspecialchars($_POST['address']));
+$city = strip_tags(htmlspecialchars($_POST['city']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
    
 // Create the email and send the message
