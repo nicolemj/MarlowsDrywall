@@ -205,7 +205,7 @@
                 <br>
                 <br>
             </div>
-            <form id="contactForm" name="sentMessage" novalidate="novalidate" method="post" action="https://formspree.io/master@nicole-jeffries.com">
+            <form id="contactForm" name="sentMessage" novalidate="novalidate" action="https://formspree.io/f/xzbkkagp" method="post" enctype="multipart/form-data">
                 <div class="row align-items-stretch mb-5">
                     <div class="form-group col-md-4">
                         <label for="name">Name</label>
@@ -256,6 +256,10 @@
                         <label for="city">City</label>
                         <input type="text" class="form-control" id="city" placeholder="Your City *">
                     </div>
+                    <label>
+                        Your file:
+                        <input type="file" name="upload">
+                      </label>
                     <div class="form-group col-md-12 form-group-textarea mb-md-0">
                         <label for="textArea">Please leave a brief description</label>
                         <textarea class="form-control" id="textArea" placeholder="Your Message *" required="required"
