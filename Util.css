@@ -1,0 +1,37 @@
+/*[ PADDING ]
+Contact form
+ Address, Phone, General Support*/
+.p-b-47 {padding-bottom: 47px;}
+.p-b-20 {padding-bottom: 20px;}
+
+/*[ MARGIN ]
+Contact form
+ Address, Phone, General Support*/
+.flex-col {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+
+.flex-col-c-m {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
