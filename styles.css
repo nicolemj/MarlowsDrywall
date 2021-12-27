@@ -779,7 +779,7 @@ textarea.input100 {
 @media (max-width: 576px) {
   .contact100-form {
     padding: 56px 15px 63px 15px;
-  } */
+  } 
 
   .rs1-wrap-input100,
   .rs2-wrap-input100 {
@@ -791,7 +791,7 @@ textarea.input100 {
     border-top: none;
   }
 }
-
+*/
 
 a {
 	font-family: Poppins-Regular;
